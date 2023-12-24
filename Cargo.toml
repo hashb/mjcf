@@ -1,0 +1,21 @@
+[package]
+name = "mjcf"
+version = "0.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["David McDougall <dam1784@rit.edu>"]
+categories = ["science", "science::robotics"]
+keywords = ["mujoco", "mjcf"]
+repository = "https://github.com/ctrl-z-9000-times/mjcf"
+
+[lib]
+test = false
+doctest = false
+
+[dependencies]
+quick-xml = { version = "0.31.0", features = ["serialize", "overlapped-lists"] }
+serde = { version = "1.0.193", features = ["derive"] }
+
+[dev-dependencies]
+clap = { version = "4.4.11", features = ["cargo", "derive"] }
+regex = "1.10.2"

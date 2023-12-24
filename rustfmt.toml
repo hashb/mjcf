@@ -1,0 +1,2 @@
+# Do not wrap long lines because it breaks my text-editor macros and workflow.
+max_width = 9999

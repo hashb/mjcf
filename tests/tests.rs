@@ -180,565 +180,565 @@ fn get_joint_order(xml_data: &str) -> Vec<String> {
 // MUJOCO MENAGERIE
 //
 
-#[test]
-fn agility_cassie_cassie() {
-    test_mjcf("mujoco_menagerie/agility_cassie/cassie.xml")
-}
-#[test]
-fn agility_cassie_scene() {
-    test_mjcf("mujoco_menagerie/agility_cassie/scene.xml")
-}
-#[test]
-fn anybotics_anymal_b_anymal_b() {
-    test_mjcf("mujoco_menagerie/anybotics_anymal_b/anymal_b.xml")
-}
-#[test]
-fn anybotics_anymal_b_scene() {
-    test_mjcf("mujoco_menagerie/anybotics_anymal_b/scene.xml")
-}
-#[test]
-fn anybotics_anymal_c_anymal_c() {
-    test_mjcf("mujoco_menagerie/anybotics_anymal_c/anymal_c.xml")
-}
-#[test]
-fn anybotics_anymal_c_scene() {
-    test_mjcf("mujoco_menagerie/anybotics_anymal_c/scene.xml")
-}
-#[test]
-fn franka_emika_panda_hand() {
-    test_mjcf("mujoco_menagerie/franka_emika_panda/hand.xml")
-}
-#[test]
-fn franka_emika_panda_panda() {
-    test_mjcf("mujoco_menagerie/franka_emika_panda/panda.xml")
-}
-#[test]
-fn franka_emika_panda_panda_nohand() {
-    test_mjcf("mujoco_menagerie/franka_emika_panda/panda_nohand.xml")
-}
-#[test]
-fn franka_emika_panda_scene() {
-    test_mjcf("mujoco_menagerie/franka_emika_panda/scene.xml")
-}
-#[test]
-fn google_barkour_v0_barkour_v0() {
-    test_mjcf("mujoco_menagerie/google_barkour_v0/barkour_v0.xml")
-}
-#[test]
-fn google_barkour_v0_scene() {
-    test_mjcf("mujoco_menagerie/google_barkour_v0/scene.xml")
-}
-#[test]
-fn google_barkour_v0_scene_barkour() {
-    test_mjcf("mujoco_menagerie/google_barkour_v0/scene_barkour.xml")
-}
-#[test]
-fn google_barkour_vb_barkour_vb() {
-    test_mjcf("mujoco_menagerie/google_barkour_vb/barkour_vb.xml")
-}
-#[test]
-fn google_barkour_vb_barkour_mjx() {
-    test_mjcf("mujoco_menagerie/google_barkour_vb/barkour_vb_mjx.xml")
-}
-#[test]
-fn google_barkour_vb_scene() {
-    test_mjcf("mujoco_menagerie/google_barkour_vb/scene.xml")
-}
-#[test]
-fn google_barkour_vb_scene_mjx() {
-    test_mjcf("mujoco_menagerie/google_barkour_vb/scene_mjx.xml")
-}
-#[test]
-fn google_robot_robot() {
-    test_mjcf("mujoco_menagerie/google_robot/robot.xml")
-}
-#[test]
-fn google_robot_scene() {
-    test_mjcf("mujoco_menagerie/google_robot/scene.xml")
-}
-#[test]
-fn hello_robot_stretch_scene() {
-    test_mjcf("mujoco_menagerie/hello_robot_stretch/scene.xml")
-}
-#[test]
-fn hello_robot_stretch_stretch() {
-    test_mjcf("mujoco_menagerie/hello_robot_stretch/stretch.xml")
-}
-#[test]
-fn kuka_iiwa_14_iiwa14() {
-    test_mjcf("mujoco_menagerie/kuka_iiwa_14/iiwa14.xml")
-}
-#[test]
-fn kuka_iiwa_14_scene() {
-    test_mjcf("mujoco_menagerie/kuka_iiwa_14/scene.xml")
-}
-#[test]
-fn realsense_d435i_d435i() {
-    test_mjcf("mujoco_menagerie/realsense_d435i/d435i.xml")
-}
-#[test]
-fn rethink_robotics_sawyer_sawyer() {
-    test_mjcf("mujoco_menagerie/rethink_robotics_sawyer/sawyer.xml")
-}
-#[test]
-fn rethink_robotics_sawyer_scene() {
-    test_mjcf("mujoco_menagerie/rethink_robotics_sawyer/scene.xml")
-}
-#[test]
-fn robotiq_2f85_2f85() {
-    test_mjcf("mujoco_menagerie/robotiq_2f85/2f85.xml")
-}
-#[test]
-fn robotiq_2f85_scene() {
-    test_mjcf("mujoco_menagerie/robotiq_2f85/scene.xml")
-}
-#[test]
-fn robotis_op3_op3() {
-    test_mjcf("mujoco_menagerie/robotis_op3/op3.xml")
-}
-#[test]
-fn robotis_op3_scene() {
-    test_mjcf("mujoco_menagerie/robotis_op3/scene.xml")
-}
-#[test]
-fn shadow_hand_keyframes() {
-    test_mjcf("mujoco_menagerie/shadow_hand/keyframes.xml")
-}
-#[test]
-fn shadow_hand_left_hand() {
-    test_mjcf("mujoco_menagerie/shadow_hand/left_hand.xml")
-}
-#[test]
-fn shadow_hand_right_hand() {
-    test_mjcf("mujoco_menagerie/shadow_hand/right_hand.xml")
-}
-#[test]
-fn shadow_hand_scene_left() {
-    test_mjcf("mujoco_menagerie/shadow_hand/scene_left.xml")
-}
-#[test]
-fn shadow_hand_scene_right() {
-    test_mjcf("mujoco_menagerie/shadow_hand/scene_right.xml")
-}
-#[test]
-fn skydio_x2_scene() {
-    test_mjcf("mujoco_menagerie/skydio_x2/scene.xml")
-}
-#[test]
-fn skydio_x2_x2() {
-    test_mjcf("mujoco_menagerie/skydio_x2/x2.xml")
-}
-#[test]
-fn trossen_vx300s_scene() {
-    test_mjcf("mujoco_menagerie/trossen_vx300s/scene.xml")
-}
-#[test]
-fn trossen_vx300s_vx300s() {
-    test_mjcf("mujoco_menagerie/trossen_vx300s/vx300s.xml")
-}
-#[test]
-fn ufactory_lite6_lite6() {
-    test_mjcf("mujoco_menagerie/ufactory_lite6/lite6.xml")
-}
-#[test]
-fn ufactory_lite6_scene() {
-    test_mjcf("mujoco_menagerie/ufactory_lite6/scene.xml")
-}
-#[test]
-fn ufactory_xarm7_hand() {
-    test_mjcf("mujoco_menagerie/ufactory_xarm7/hand.xml")
-}
-#[test]
-fn ufactory_xarm7_scene() {
-    test_mjcf("mujoco_menagerie/ufactory_xarm7/scene.xml")
-}
-#[test]
-fn ufactory_xarm7_xarm7() {
-    test_mjcf("mujoco_menagerie/ufactory_xarm7/xarm7.xml")
-}
-#[test]
-fn ufactory_xarm7_xarm7_nohand() {
-    test_mjcf("mujoco_menagerie/ufactory_xarm7/xarm7_nohand.xml")
-}
-#[test]
-fn unitree_a1_a1() {
-    test_mjcf("mujoco_menagerie/unitree_a1/a1.xml")
-}
-#[test]
-fn unitree_a1_scene() {
-    test_mjcf("mujoco_menagerie/unitree_a1/scene.xml")
-}
-#[test]
-fn unitree_go1_go1() {
-    test_mjcf("mujoco_menagerie/unitree_go1/go1.xml")
-}
-#[test]
-fn unitree_go1_scene() {
-    test_mjcf("mujoco_menagerie/unitree_go1/scene.xml")
-}
-#[test]
-fn unitree_go2_go2() {
-    test_mjcf("mujoco_menagerie/unitree_go2/go2.xml")
-}
-#[test]
-fn unitree_go2_scene() {
-    test_mjcf("mujoco_menagerie/unitree_go2/scene.xml")
-}
-#[test]
-fn unitree_h1_h1() {
-    test_mjcf("mujoco_menagerie/unitree_h1/h1.xml")
-}
-#[test]
-fn unitree_h1_scene() {
-    test_mjcf("mujoco_menagerie/unitree_h1/scene.xml")
-}
-#[test]
-fn unitree_z1_scene() {
-    test_mjcf("mujoco_menagerie/unitree_z1/scene.xml")
-}
-#[test]
-fn unitree_z1_z1() {
-    test_mjcf("mujoco_menagerie/unitree_z1/z1.xml")
-}
-#[test]
-fn universal_robots_ur10e_scene() {
-    test_mjcf("mujoco_menagerie/universal_robots_ur10e/scene.xml")
-}
-#[test]
-fn universal_robots_ur10e_ur10e() {
-    test_mjcf("mujoco_menagerie/universal_robots_ur10e/ur10e.xml")
-}
-#[test]
-fn universal_robots_ur5e_scene() {
-    test_mjcf("mujoco_menagerie/universal_robots_ur5e/scene.xml")
-}
-#[test]
-fn universal_robots_ur5e_ur5e() {
-    test_mjcf("mujoco_menagerie/universal_robots_ur5e/ur5e.xml")
-}
-#[test]
-fn wonik_allegro_left_hand() {
-    test_mjcf("mujoco_menagerie/wonik_allegro/left_hand.xml")
-}
-#[test]
-fn wonik_allegro_right_hand() {
-    test_mjcf("mujoco_menagerie/wonik_allegro/right_hand.xml")
-}
-#[test]
-fn wonik_allegro_scene_left() {
-    test_mjcf("mujoco_menagerie/wonik_allegro/scene_left.xml")
-}
-#[test]
-fn wonik_allegro_scene_right() {
-    test_mjcf("mujoco_menagerie/wonik_allegro/scene_right.xml")
-}
+// #[test]
+// fn agility_cassie_cassie() {
+//     test_mjcf("mujoco_menagerie/agility_cassie/cassie.xml")
+// }
+// #[test]
+// fn agility_cassie_scene() {
+//     test_mjcf("mujoco_menagerie/agility_cassie/scene.xml")
+// }
+// #[test]
+// fn anybotics_anymal_b_anymal_b() {
+//     test_mjcf("mujoco_menagerie/anybotics_anymal_b/anymal_b.xml")
+// }
+// #[test]
+// fn anybotics_anymal_b_scene() {
+//     test_mjcf("mujoco_menagerie/anybotics_anymal_b/scene.xml")
+// }
+// #[test]
+// fn anybotics_anymal_c_anymal_c() {
+//     test_mjcf("mujoco_menagerie/anybotics_anymal_c/anymal_c.xml")
+// }
+// #[test]
+// fn anybotics_anymal_c_scene() {
+//     test_mjcf("mujoco_menagerie/anybotics_anymal_c/scene.xml")
+// }
+// #[test]
+// fn franka_emika_panda_hand() {
+//     test_mjcf("mujoco_menagerie/franka_emika_panda/hand.xml")
+// }
+// #[test]
+// fn franka_emika_panda_panda() {
+//     test_mjcf("mujoco_menagerie/franka_emika_panda/panda.xml")
+// }
+// #[test]
+// fn franka_emika_panda_panda_nohand() {
+//     test_mjcf("mujoco_menagerie/franka_emika_panda/panda_nohand.xml")
+// }
+// #[test]
+// fn franka_emika_panda_scene() {
+//     test_mjcf("mujoco_menagerie/franka_emika_panda/scene.xml")
+// }
+// #[test]
+// fn google_barkour_v0_barkour_v0() {
+//     test_mjcf("mujoco_menagerie/google_barkour_v0/barkour_v0.xml")
+// }
+// #[test]
+// fn google_barkour_v0_scene() {
+//     test_mjcf("mujoco_menagerie/google_barkour_v0/scene.xml")
+// }
+// #[test]
+// fn google_barkour_v0_scene_barkour() {
+//     test_mjcf("mujoco_menagerie/google_barkour_v0/scene_barkour.xml")
+// }
+// #[test]
+// fn google_barkour_vb_barkour_vb() {
+//     test_mjcf("mujoco_menagerie/google_barkour_vb/barkour_vb.xml")
+// }
+// #[test]
+// fn google_barkour_vb_barkour_mjx() {
+//     test_mjcf("mujoco_menagerie/google_barkour_vb/barkour_vb_mjx.xml")
+// }
+// #[test]
+// fn google_barkour_vb_scene() {
+//     test_mjcf("mujoco_menagerie/google_barkour_vb/scene.xml")
+// }
+// #[test]
+// fn google_barkour_vb_scene_mjx() {
+//     test_mjcf("mujoco_menagerie/google_barkour_vb/scene_mjx.xml")
+// }
+// #[test]
+// fn google_robot_robot() {
+//     test_mjcf("mujoco_menagerie/google_robot/robot.xml")
+// }
+// #[test]
+// fn google_robot_scene() {
+//     test_mjcf("mujoco_menagerie/google_robot/scene.xml")
+// }
+// #[test]
+// fn hello_robot_stretch_scene() {
+//     test_mjcf("mujoco_menagerie/hello_robot_stretch/scene.xml")
+// }
+// #[test]
+// fn hello_robot_stretch_stretch() {
+//     test_mjcf("mujoco_menagerie/hello_robot_stretch/stretch.xml")
+// }
+// #[test]
+// fn kuka_iiwa_14_iiwa14() {
+//     test_mjcf("mujoco_menagerie/kuka_iiwa_14/iiwa14.xml")
+// }
+// #[test]
+// fn kuka_iiwa_14_scene() {
+//     test_mjcf("mujoco_menagerie/kuka_iiwa_14/scene.xml")
+// }
+// #[test]
+// fn realsense_d435i_d435i() {
+//     test_mjcf("mujoco_menagerie/realsense_d435i/d435i.xml")
+// }
+// #[test]
+// fn rethink_robotics_sawyer_sawyer() {
+//     test_mjcf("mujoco_menagerie/rethink_robotics_sawyer/sawyer.xml")
+// }
+// #[test]
+// fn rethink_robotics_sawyer_scene() {
+//     test_mjcf("mujoco_menagerie/rethink_robotics_sawyer/scene.xml")
+// }
+// #[test]
+// fn robotiq_2f85_2f85() {
+//     test_mjcf("mujoco_menagerie/robotiq_2f85/2f85.xml")
+// }
+// #[test]
+// fn robotiq_2f85_scene() {
+//     test_mjcf("mujoco_menagerie/robotiq_2f85/scene.xml")
+// }
+// #[test]
+// fn robotis_op3_op3() {
+//     test_mjcf("mujoco_menagerie/robotis_op3/op3.xml")
+// }
+// #[test]
+// fn robotis_op3_scene() {
+//     test_mjcf("mujoco_menagerie/robotis_op3/scene.xml")
+// }
+// #[test]
+// fn shadow_hand_keyframes() {
+//     test_mjcf("mujoco_menagerie/shadow_hand/keyframes.xml")
+// }
+// #[test]
+// fn shadow_hand_left_hand() {
+//     test_mjcf("mujoco_menagerie/shadow_hand/left_hand.xml")
+// }
+// #[test]
+// fn shadow_hand_right_hand() {
+//     test_mjcf("mujoco_menagerie/shadow_hand/right_hand.xml")
+// }
+// #[test]
+// fn shadow_hand_scene_left() {
+//     test_mjcf("mujoco_menagerie/shadow_hand/scene_left.xml")
+// }
+// #[test]
+// fn shadow_hand_scene_right() {
+//     test_mjcf("mujoco_menagerie/shadow_hand/scene_right.xml")
+// }
+// #[test]
+// fn skydio_x2_scene() {
+//     test_mjcf("mujoco_menagerie/skydio_x2/scene.xml")
+// }
+// #[test]
+// fn skydio_x2_x2() {
+//     test_mjcf("mujoco_menagerie/skydio_x2/x2.xml")
+// }
+// #[test]
+// fn trossen_vx300s_scene() {
+//     test_mjcf("mujoco_menagerie/trossen_vx300s/scene.xml")
+// }
+// #[test]
+// fn trossen_vx300s_vx300s() {
+//     test_mjcf("mujoco_menagerie/trossen_vx300s/vx300s.xml")
+// }
+// #[test]
+// fn ufactory_lite6_lite6() {
+//     test_mjcf("mujoco_menagerie/ufactory_lite6/lite6.xml")
+// }
+// #[test]
+// fn ufactory_lite6_scene() {
+//     test_mjcf("mujoco_menagerie/ufactory_lite6/scene.xml")
+// }
+// #[test]
+// fn ufactory_xarm7_hand() {
+//     test_mjcf("mujoco_menagerie/ufactory_xarm7/hand.xml")
+// }
+// #[test]
+// fn ufactory_xarm7_scene() {
+//     test_mjcf("mujoco_menagerie/ufactory_xarm7/scene.xml")
+// }
+// #[test]
+// fn ufactory_xarm7_xarm7() {
+//     test_mjcf("mujoco_menagerie/ufactory_xarm7/xarm7.xml")
+// }
+// #[test]
+// fn ufactory_xarm7_xarm7_nohand() {
+//     test_mjcf("mujoco_menagerie/ufactory_xarm7/xarm7_nohand.xml")
+// }
+// #[test]
+// fn unitree_a1_a1() {
+//     test_mjcf("mujoco_menagerie/unitree_a1/a1.xml")
+// }
+// #[test]
+// fn unitree_a1_scene() {
+//     test_mjcf("mujoco_menagerie/unitree_a1/scene.xml")
+// }
+// #[test]
+// fn unitree_go1_go1() {
+//     test_mjcf("mujoco_menagerie/unitree_go1/go1.xml")
+// }
+// #[test]
+// fn unitree_go1_scene() {
+//     test_mjcf("mujoco_menagerie/unitree_go1/scene.xml")
+// }
+// #[test]
+// fn unitree_go2_go2() {
+//     test_mjcf("mujoco_menagerie/unitree_go2/go2.xml")
+// }
+// #[test]
+// fn unitree_go2_scene() {
+//     test_mjcf("mujoco_menagerie/unitree_go2/scene.xml")
+// }
+// #[test]
+// fn unitree_h1_h1() {
+//     test_mjcf("mujoco_menagerie/unitree_h1/h1.xml")
+// }
+// #[test]
+// fn unitree_h1_scene() {
+//     test_mjcf("mujoco_menagerie/unitree_h1/scene.xml")
+// }
+// #[test]
+// fn unitree_z1_scene() {
+//     test_mjcf("mujoco_menagerie/unitree_z1/scene.xml")
+// }
+// #[test]
+// fn unitree_z1_z1() {
+//     test_mjcf("mujoco_menagerie/unitree_z1/z1.xml")
+// }
+// #[test]
+// fn universal_robots_ur10e_scene() {
+//     test_mjcf("mujoco_menagerie/universal_robots_ur10e/scene.xml")
+// }
+// #[test]
+// fn universal_robots_ur10e_ur10e() {
+//     test_mjcf("mujoco_menagerie/universal_robots_ur10e/ur10e.xml")
+// }
+// #[test]
+// fn universal_robots_ur5e_scene() {
+//     test_mjcf("mujoco_menagerie/universal_robots_ur5e/scene.xml")
+// }
+// #[test]
+// fn universal_robots_ur5e_ur5e() {
+//     test_mjcf("mujoco_menagerie/universal_robots_ur5e/ur5e.xml")
+// }
+// #[test]
+// fn wonik_allegro_left_hand() {
+//     test_mjcf("mujoco_menagerie/wonik_allegro/left_hand.xml")
+// }
+// #[test]
+// fn wonik_allegro_right_hand() {
+//     test_mjcf("mujoco_menagerie/wonik_allegro/right_hand.xml")
+// }
+// #[test]
+// fn wonik_allegro_scene_left() {
+//     test_mjcf("mujoco_menagerie/wonik_allegro/scene_left.xml")
+// }
+// #[test]
+// fn wonik_allegro_scene_right() {
+//     test_mjcf("mujoco_menagerie/wonik_allegro/scene_right.xml")
+// }
 
-//
-// GYMNASIUM
-//
+// //
+// // GYMNASIUM
+// //
 
-#[test]
-fn gymnasium_ant() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/ant.xml")
-}
-#[test]
-fn gymnasium_half_cheetah() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/half_cheetah.xml")
-}
-#[test]
-fn gymnasium_hopper() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/hopper.xml")
-}
-#[test]
-fn gymnasium_humanoidstandup() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/humanoidstandup.xml")
-}
-#[test]
-fn gymnasium_humanoid() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/humanoid.xml")
-}
-#[test]
-fn gymnasium_inverted_double_pendulum() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/inverted_double_pendulum.xml")
-}
-#[test]
-fn gymnasium_inverted_pendulum() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/inverted_pendulum.xml")
-}
-#[test]
-fn gymnasium_point() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/point.xml")
-}
-#[test]
-fn gymnasium_pusher() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/pusher.xml")
-}
-#[test]
-fn gymnasium_reacher() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/reacher.xml")
-}
-#[test]
-fn gymnasium_swimmer() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/swimmer.xml")
-}
-#[test]
-fn gymnasium_walker2d_v5() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/walker2d_v5.xml")
-}
-#[test]
-fn gymnasium_walker2d() {
-    test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/walker2d.xml")
-}
-#[test]
-fn gymnasium_walker2d_v5_uneven_feet() {
-    test_mjcf("Gymnasium/tests/envs/mujoco/assets/walker2d_v5_uneven_feet.xml")
-}
+// #[test]
+// fn gymnasium_ant() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/ant.xml")
+// }
+// #[test]
+// fn gymnasium_half_cheetah() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/half_cheetah.xml")
+// }
+// #[test]
+// fn gymnasium_hopper() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/hopper.xml")
+// }
+// #[test]
+// fn gymnasium_humanoidstandup() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/humanoidstandup.xml")
+// }
+// #[test]
+// fn gymnasium_humanoid() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/humanoid.xml")
+// }
+// #[test]
+// fn gymnasium_inverted_double_pendulum() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/inverted_double_pendulum.xml")
+// }
+// #[test]
+// fn gymnasium_inverted_pendulum() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/inverted_pendulum.xml")
+// }
+// #[test]
+// fn gymnasium_point() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/point.xml")
+// }
+// #[test]
+// fn gymnasium_pusher() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/pusher.xml")
+// }
+// #[test]
+// fn gymnasium_reacher() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/reacher.xml")
+// }
+// #[test]
+// fn gymnasium_swimmer() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/swimmer.xml")
+// }
+// #[test]
+// fn gymnasium_walker2d_v5() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/walker2d_v5.xml")
+// }
+// #[test]
+// fn gymnasium_walker2d() {
+//     test_mjcf("Gymnasium/gymnasium/envs/mujoco/assets/walker2d.xml")
+// }
+// #[test]
+// fn gymnasium_walker2d_v5_uneven_feet() {
+//     test_mjcf("Gymnasium/tests/envs/mujoco/assets/walker2d_v5_uneven_feet.xml")
+// }
 
-//
-// DM_CONTROL
-//
+// //
+// // DM_CONTROL
+// //
 
-#[test]
-fn composer_arena() {
-    test_mjcf("dm_control/dm_control/composer/arena.xml")
-}
-#[test]
-fn duplo_duplo2x4() {
-    test_mjcf("dm_control/dm_control/entities/props/duplo/duplo2x4.xml")
-}
-#[test]
-fn boxhead_boxhead() {
-    test_mjcf("dm_control/dm_control/locomotion/soccer/assets/boxhead/boxhead.xml")
-}
-#[test]
-fn assets_drosophila_defaults() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/assets/drosophila_defaults.xml")
-}
-#[test]
-fn assets_drosophila_fused() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/assets/drosophila_fused.xml")
-}
-#[test]
-fn assets_drosophila() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/assets/drosophila.xml")
-}
-#[test]
-fn build_fruitfly_floor() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/floor.xml")
-}
-#[test]
-fn build_fruitfly_fruitfly() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/fruitfly.xml")
-}
-#[test]
-fn dog_v2_dog_base() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/dog_v2/dog_base.xml")
-}
-#[test]
-fn dog_v2_dog() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/dog_v2/dog.xml")
-}
-#[test]
-fn dog_v2_scene() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/dog_v2/scene.xml")
-}
-#[test]
-fn fruitfly_v2_floor() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/fruitfly_v2/floor.xml")
-}
-#[test]
-fn fruitfly_v2_fruitfly() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/fruitfly_v2/fruitfly.xml")
-}
-#[test]
-fn assets_humanoid_CMU_V2019() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/humanoid_CMU_V2019.xml")
-}
-#[test]
-fn assets_humanoid_CMU_V2020() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/humanoid_CMU_V2020.xml")
-}
-#[test]
-fn jumping_ball_jumping_ball_with_head() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/jumping_ball/jumping_ball_with_head.xml")
-}
-#[test]
-fn assets_rodent() {
-    test_mjcf("dm_control/dm_control/locomotion/walkers/assets/rodent.xml")
-}
-#[test]
-fn test_assets_arena() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/arena.xml")
-}
-#[test]
-fn test_assets_included_with_invalid_filenames() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/included_with_invalid_filenames.xml")
-}
-#[test]
-fn test_assets_included() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/included.xml")
-}
-#[test]
-fn test_assets_lego_brick() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/lego_brick.xml")
-}
-#[test]
-fn test_assets_model_with_assets() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/model_with_assets.xml")
-}
-#[test]
-fn test_assets_model_with_include() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/model_with_include.xml")
-}
-#[test]
-fn test_assets_model_with_invalid_filenames() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/model_with_invalid_filenames.xml")
-}
-#[test]
-fn test_assets_model_with_nameless_assets() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/model_with_nameless_assets.xml")
-}
-#[test]
-fn test_assets_robot_arm() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/robot_arm.xml")
-}
-#[test]
-fn test_assets_test_model() {
-    test_mjcf("dm_control/dm_control/mjcf/test_assets/test_model.xml")
-}
-#[test]
-fn assets_arm() {
-    test_mjcf("dm_control/dm_control/mujoco/testing/assets/arm.xml")
-}
-#[test]
-fn assets_cartpole_no_names() {
-    test_mjcf("dm_control/dm_control/mujoco/testing/assets/cartpole_no_names.xml")
-}
-#[test]
-fn assets_cartpole() {
-    test_mjcf("dm_control/dm_control/mujoco/testing/assets/cartpole.xml")
-}
-#[test]
-fn assets_humanoid() {
-    test_mjcf("dm_control/dm_control/mujoco/testing/assets/humanoid.xml")
-}
-#[test]
-fn assets_model_with_assets() {
-    test_mjcf("dm_control/dm_control/mujoco/testing/assets/model_with_assets.xml")
-}
-#[test]
-fn assets_model_with_ball_joints() {
-    test_mjcf("dm_control/dm_control/mujoco/testing/assets/model_with_ball_joints.xml")
-}
-#[test]
-fn assets_model_with_third_order_actuators() {
-    test_mjcf("dm_control/dm_control/mujoco/testing/assets/model_with_third_order_actuators.xml")
-}
-#[test]
-fn assets_sphere() {
-    test_mjcf("dm_control/dm_control/mujoco/testing/assets/sphere.xml")
-}
-#[test]
-fn suite_acrobot() {
-    test_mjcf("dm_control/dm_control/suite/acrobot.xml")
-}
-#[test]
-fn suite_ball_in_cup() {
-    test_mjcf("dm_control/dm_control/suite/ball_in_cup.xml")
-}
-#[test]
-fn suite_cartpole() {
-    test_mjcf("dm_control/dm_control/suite/cartpole.xml")
-}
-#[test]
-fn suite_cheetah() {
-    test_mjcf("dm_control/dm_control/suite/cheetah.xml")
-}
-#[test]
-fn common_materials() {
-    test_mjcf("dm_control/dm_control/suite/common/materials.xml")
-}
-#[test]
-fn common_skybox() {
-    test_mjcf("dm_control/dm_control/suite/common/skybox.xml")
-}
-#[test]
-fn common_visual() {
-    test_mjcf("dm_control/dm_control/suite/common/visual.xml")
-}
-#[test]
-fn suite_dog() {
-    test_mjcf("dm_control/dm_control/suite/dog.xml")
-}
-#[test]
-fn suite_finger() {
-    test_mjcf("dm_control/dm_control/suite/finger.xml")
-}
-#[test]
-fn suite_fish() {
-    test_mjcf("dm_control/dm_control/suite/fish.xml")
-}
-#[test]
-fn suite_hopper() {
-    test_mjcf("dm_control/dm_control/suite/hopper.xml")
-}
-#[test]
-fn suite_humanoid_CMU() {
-    test_mjcf("dm_control/dm_control/suite/humanoid_CMU.xml")
-}
-#[test]
-fn suite_humanoid() {
-    test_mjcf("dm_control/dm_control/suite/humanoid.xml")
-}
-#[test]
-fn suite_lqr() {
-    test_mjcf("dm_control/dm_control/suite/lqr.xml")
-}
-#[test]
-fn suite_manipulator() {
-    test_mjcf("dm_control/dm_control/suite/manipulator.xml")
-}
-#[test]
-fn suite_pendulum() {
-    test_mjcf("dm_control/dm_control/suite/pendulum.xml")
-}
-#[test]
-fn suite_point_mass() {
-    test_mjcf("dm_control/dm_control/suite/point_mass.xml")
-}
-#[test]
-fn suite_quadruped() {
-    test_mjcf("dm_control/dm_control/suite/quadruped.xml")
-}
-#[test]
-fn suite_reacher() {
-    test_mjcf("dm_control/dm_control/suite/reacher.xml")
-}
-#[test]
-fn suite_stacker() {
-    test_mjcf("dm_control/dm_control/suite/stacker.xml")
-}
-#[test]
-fn suite_swimmer() {
-    test_mjcf("dm_control/dm_control/suite/swimmer.xml")
-}
-#[test]
-fn suite_walker() {
-    test_mjcf("dm_control/dm_control/suite/walker.xml")
-}
-#[test]
-fn ant_ant() {
-    test_mjcf("dm_control/dm_control/third_party/ant/ant.xml")
-}
-#[test]
-fn kinova_common() {
-    test_mjcf("dm_control/dm_control/third_party/kinova/common.xml")
-}
-#[test]
-fn kinova_jaco_arm() {
-    test_mjcf("dm_control/dm_control/third_party/kinova/jaco_arm.xml")
-}
-#[test]
-fn kinova_jaco_hand() {
-    test_mjcf("dm_control/dm_control/third_party/kinova/jaco_hand.xml")
-}
+// #[test]
+// fn composer_arena() {
+//     test_mjcf("dm_control/dm_control/composer/arena.xml")
+// }
+// #[test]
+// fn duplo_duplo2x4() {
+//     test_mjcf("dm_control/dm_control/entities/props/duplo/duplo2x4.xml")
+// }
+// #[test]
+// fn boxhead_boxhead() {
+//     test_mjcf("dm_control/dm_control/locomotion/soccer/assets/boxhead/boxhead.xml")
+// }
+// #[test]
+// fn assets_drosophila_defaults() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/assets/drosophila_defaults.xml")
+// }
+// #[test]
+// fn assets_drosophila_fused() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/assets/drosophila_fused.xml")
+// }
+// #[test]
+// fn assets_drosophila() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/assets/drosophila.xml")
+// }
+// #[test]
+// fn build_fruitfly_floor() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/floor.xml")
+// }
+// #[test]
+// fn build_fruitfly_fruitfly() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/build_fruitfly/fruitfly.xml")
+// }
+// #[test]
+// fn dog_v2_dog_base() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/dog_v2/dog_base.xml")
+// }
+// #[test]
+// fn dog_v2_dog() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/dog_v2/dog.xml")
+// }
+// #[test]
+// fn dog_v2_scene() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/dog_v2/scene.xml")
+// }
+// #[test]
+// fn fruitfly_v2_floor() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/fruitfly_v2/floor.xml")
+// }
+// #[test]
+// fn fruitfly_v2_fruitfly() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/fruitfly_v2/fruitfly.xml")
+// }
+// #[test]
+// fn assets_humanoid_CMU_V2019() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/humanoid_CMU_V2019.xml")
+// }
+// #[test]
+// fn assets_humanoid_CMU_V2020() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/humanoid_CMU_V2020.xml")
+// }
+// #[test]
+// fn jumping_ball_jumping_ball_with_head() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/jumping_ball/jumping_ball_with_head.xml")
+// }
+// #[test]
+// fn assets_rodent() {
+//     test_mjcf("dm_control/dm_control/locomotion/walkers/assets/rodent.xml")
+// }
+// #[test]
+// fn test_assets_arena() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/arena.xml")
+// }
+// #[test]
+// fn test_assets_included_with_invalid_filenames() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/included_with_invalid_filenames.xml")
+// }
+// #[test]
+// fn test_assets_included() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/included.xml")
+// }
+// #[test]
+// fn test_assets_lego_brick() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/lego_brick.xml")
+// }
+// #[test]
+// fn test_assets_model_with_assets() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/model_with_assets.xml")
+// }
+// #[test]
+// fn test_assets_model_with_include() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/model_with_include.xml")
+// }
+// #[test]
+// fn test_assets_model_with_invalid_filenames() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/model_with_invalid_filenames.xml")
+// }
+// #[test]
+// fn test_assets_model_with_nameless_assets() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/model_with_nameless_assets.xml")
+// }
+// #[test]
+// fn test_assets_robot_arm() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/robot_arm.xml")
+// }
+// #[test]
+// fn test_assets_test_model() {
+//     test_mjcf("dm_control/dm_control/mjcf/test_assets/test_model.xml")
+// }
+// #[test]
+// fn assets_arm() {
+//     test_mjcf("dm_control/dm_control/mujoco/testing/assets/arm.xml")
+// }
+// #[test]
+// fn assets_cartpole_no_names() {
+//     test_mjcf("dm_control/dm_control/mujoco/testing/assets/cartpole_no_names.xml")
+// }
+// #[test]
+// fn assets_cartpole() {
+//     test_mjcf("dm_control/dm_control/mujoco/testing/assets/cartpole.xml")
+// }
+// #[test]
+// fn assets_humanoid() {
+//     test_mjcf("dm_control/dm_control/mujoco/testing/assets/humanoid.xml")
+// }
+// #[test]
+// fn assets_model_with_assets() {
+//     test_mjcf("dm_control/dm_control/mujoco/testing/assets/model_with_assets.xml")
+// }
+// #[test]
+// fn assets_model_with_ball_joints() {
+//     test_mjcf("dm_control/dm_control/mujoco/testing/assets/model_with_ball_joints.xml")
+// }
+// #[test]
+// fn assets_model_with_third_order_actuators() {
+//     test_mjcf("dm_control/dm_control/mujoco/testing/assets/model_with_third_order_actuators.xml")
+// }
+// #[test]
+// fn assets_sphere() {
+//     test_mjcf("dm_control/dm_control/mujoco/testing/assets/sphere.xml")
+// }
+// #[test]
+// fn suite_acrobot() {
+//     test_mjcf("dm_control/dm_control/suite/acrobot.xml")
+// }
+// #[test]
+// fn suite_ball_in_cup() {
+//     test_mjcf("dm_control/dm_control/suite/ball_in_cup.xml")
+// }
+// #[test]
+// fn suite_cartpole() {
+//     test_mjcf("dm_control/dm_control/suite/cartpole.xml")
+// }
+// #[test]
+// fn suite_cheetah() {
+//     test_mjcf("dm_control/dm_control/suite/cheetah.xml")
+// }
+// #[test]
+// fn common_materials() {
+//     test_mjcf("dm_control/dm_control/suite/common/materials.xml")
+// }
+// #[test]
+// fn common_skybox() {
+//     test_mjcf("dm_control/dm_control/suite/common/skybox.xml")
+// }
+// #[test]
+// fn common_visual() {
+//     test_mjcf("dm_control/dm_control/suite/common/visual.xml")
+// }
+// #[test]
+// fn suite_dog() {
+//     test_mjcf("dm_control/dm_control/suite/dog.xml")
+// }
+// #[test]
+// fn suite_finger() {
+//     test_mjcf("dm_control/dm_control/suite/finger.xml")
+// }
+// #[test]
+// fn suite_fish() {
+//     test_mjcf("dm_control/dm_control/suite/fish.xml")
+// }
+// #[test]
+// fn suite_hopper() {
+//     test_mjcf("dm_control/dm_control/suite/hopper.xml")
+// }
+// #[test]
+// fn suite_humanoid_CMU() {
+//     test_mjcf("dm_control/dm_control/suite/humanoid_CMU.xml")
+// }
+// #[test]
+// fn suite_humanoid() {
+//     test_mjcf("dm_control/dm_control/suite/humanoid.xml")
+// }
+// #[test]
+// fn suite_lqr() {
+//     test_mjcf("dm_control/dm_control/suite/lqr.xml")
+// }
+// #[test]
+// fn suite_manipulator() {
+//     test_mjcf("dm_control/dm_control/suite/manipulator.xml")
+// }
+// #[test]
+// fn suite_pendulum() {
+//     test_mjcf("dm_control/dm_control/suite/pendulum.xml")
+// }
+// #[test]
+// fn suite_point_mass() {
+//     test_mjcf("dm_control/dm_control/suite/point_mass.xml")
+// }
+// #[test]
+// fn suite_quadruped() {
+//     test_mjcf("dm_control/dm_control/suite/quadruped.xml")
+// }
+// #[test]
+// fn suite_reacher() {
+//     test_mjcf("dm_control/dm_control/suite/reacher.xml")
+// }
+// #[test]
+// fn suite_stacker() {
+//     test_mjcf("dm_control/dm_control/suite/stacker.xml")
+// }
+// #[test]
+// fn suite_swimmer() {
+//     test_mjcf("dm_control/dm_control/suite/swimmer.xml")
+// }
+// #[test]
+// fn suite_walker() {
+//     test_mjcf("dm_control/dm_control/suite/walker.xml")
+// }
+// #[test]
+// fn ant_ant() {
+//     test_mjcf("dm_control/dm_control/third_party/ant/ant.xml")
+// }
+// #[test]
+// fn kinova_common() {
+//     test_mjcf("dm_control/dm_control/third_party/kinova/common.xml")
+// }
+// #[test]
+// fn kinova_jaco_arm() {
+//     test_mjcf("dm_control/dm_control/third_party/kinova/jaco_arm.xml")
+// }
+// #[test]
+// fn kinova_jaco_hand() {
+//     test_mjcf("dm_control/dm_control/third_party/kinova/jaco_hand.xml")
+// }

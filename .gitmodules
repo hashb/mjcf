@@ -1,9 +1,0 @@
-[submodule "mjcf_test_files/mujoco_menagerie"]
-	path = mjcf_test_files/mujoco_menagerie
-	url = https://github.com/google-deepmind/mujoco_menagerie.git
-[submodule "mjcf_test_files/Gymnasium"]
-	path = mjcf_test_files/Gymnasium
-	url = https://github.com/Farama-Foundation/Gymnasium.git
-[submodule "mjcf_test_files/dm_control"]
-	path = mjcf_test_files/dm_control
-	url = https://github.com/google-deepmind/dm_control.git

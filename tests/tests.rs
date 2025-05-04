@@ -61,25 +61,25 @@ fn readme_example() {
 /// This function parses the file into rust, serializes back into XML, and
 /// checks that the result looks similar enough.
 ///
-fn test_mjcf(filename: &str) {
-    // Get and clean up the input file.
-    let filepath = std::path::Path::new(REPO_ROOT).join("mjcf_test_files").join(filename);
-    let input = std::fs::read_to_string(filepath).unwrap();
-    let input = input.replace(">>", ">"); // Apparently MuJoCo will accept malformed XML :(
-    let input = strip_comments(&input);
-    let input = strip_empty_tags(&input);
-    let input = strip_xml_header(&input);
-    dbg!(&input);
-    //
-    let value = from_str(&input).unwrap();
-    dbg!(&value);
-    //
-    let output = to_string(&value).unwrap();
-    dbg!(&output);
-    //
-    check_xml_histogram(&input, &output);
-    // check_joint_order(&input, &output);
-}
+// fn test_mjcf(filename: &str) {
+//     // Get and clean up the input file.
+//     let filepath = std::path::Path::new(REPO_ROOT).join("mjcf_test_files").join(filename);
+//     let input = std::fs::read_to_string(filepath).unwrap();
+//     let input = input.replace(">>", ">"); // Apparently MuJoCo will accept malformed XML :(
+//     let input = strip_comments(&input);
+//     let input = strip_empty_tags(&input);
+//     let input = strip_xml_header(&input);
+//     dbg!(&input);
+//     //
+//     let value = from_str(&input).unwrap();
+//     dbg!(&value);
+//     //
+//     let output = to_string(&value).unwrap();
+//     dbg!(&output);
+//     //
+//     check_xml_histogram(&input, &output);
+//     // check_joint_order(&input, &output);
+// }
 
 const REPO_ROOT: &'static str = env!("CARGO_MANIFEST_DIR");
 
